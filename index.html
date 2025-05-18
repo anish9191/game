@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Racing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="start-screen">
+    <h1>Select Your Car</h1>
+    <div class="car-options">
+      <div class="car-choice" data-color="limegreen" style="background: limegreen;"></div>
+      <div class="car-choice" data-color="dodgerblue" style="background: dodgerblue;"></div>
+      <div class="car-choice" data-color="gold" style="background: gold;"></div>
+    </div>
+    <button id="start-button">Start Game</button>
+  </div>
+
+  <div id="game" class="hidden">
+    <div id="score">Score: 0</div>
+    <div class="car" id="player"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
